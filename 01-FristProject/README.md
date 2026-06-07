@@ -1,16 +1,40 @@
-# React + Vite
+# 🚀 First React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React.js project created as part of my React learning journey. The project helps me understand the fundamentals of React, including components, JSX, props, state management, and project structure.
 
-Currently, two official plugins are available:
+## 📖 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is built using React.js and serves as a beginner-friendly application to practice core React concepts. It demonstrates how React components work together to create interactive and reusable user interfaces.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Built with React.js
+- Reusable Components
+- Modern UI Design
+- Responsive Layout
+- Fast Development with Vite
+- Beginner-Friendly Code Structure
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+## 📂 Project Structure
+
+```bash
+01-FirstProject/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
