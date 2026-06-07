@@ -2,6 +2,9 @@
 
 JobHub is a modern and responsive job portal web application built with React.js. It allows users to browse job opportunities, explore companies, and navigate through a clean and user-friendly interface.
 
+
+<img width="800" height="423" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/55e23d8b-94fa-450c-9c3e-b5a0cd13b588" />
+
 ## 🚀 Features
 
 * Modern and Responsive UI
