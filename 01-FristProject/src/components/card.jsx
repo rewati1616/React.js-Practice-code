@@ -1,44 +1,45 @@
 import React from 'react'
 import { Bookmark } from 'lucide-react';
 
-const Card = () => {
+const Card = ({jobs}) => {
+
+   console.log(jobs);
+  console.log(Array.isArray(jobs));
   return (
     <>
-    <div className="main-border">
+      {
+        jobs.map((job) => (
+          <div className="main-border" key={job.id}>
 
-        <div className="top">
-          <img src="https://thumbs.dreamstime.com/b/icons-sample-psost-setting-428651105.jpg" alt="Amazon Logo" />
-          <button>Save <Bookmark size={16}/></button>
-        
-        </div>
+            <div className="top">
+              <img src={job.logo} alt="" />
+              <button>Save <Bookmark size={16} /></button>
+            </div>
 
-        <div className="center">
+            <div className="center">
+              <div className="company-name">
+                <h2>{job.companyName}</h2>
+                <p>{job.postedAt}</p>
+              </div>
+              <h1>{job.position}</h1>
+              <div className='btn'>
+                <button>{job.employmentType}</button>
+                <button>{job.experienceLevel}</button>
+              </div>
+            </div>
 
-          <div className="company-name">
-            <h2>Amazon</h2>
-            <p>5 days ago</p>
+            <hr />
+
+            <div className="bottom">
+              <div>
+                <h1>{job.salary}</h1>
+                <p>{job.location}</p>
+              </div>
+              <button>Apply Now</button>
+            </div>
+
           </div>
-          <h1>Senior UI/UX Designer</h1>
-          <div className='btn'>
-            <button>Part-Time</button>
-            <button>Senior Level</button>
-          </div>
-
-        </div>
-        
-        <hr />
-
-        <div className="bottom">
-      
-          <div>
-            <h1>$120/hr</h1>
-            <p>Mumbai, India</p>
-          </div>
-          <button>Apply Now</button>
-
-        </div>
-
-      </div>
+        ))}
     </>
   )
 }
