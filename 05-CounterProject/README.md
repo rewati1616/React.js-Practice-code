@@ -1,6 +1,10 @@
+
 # Counter Project
 
 A simple and interactive Counter Application built using React.js. This project demonstrates the use of React state management and event handling to increment and decrement a counter value.
+
+https://github.com/user-attachments/assets/3491bf21-6fbf-4df0-95fa-69e784b35677
+
 
 ## Features
 
