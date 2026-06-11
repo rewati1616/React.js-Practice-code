@@ -1,5 +1,5 @@
 
-# Counter Project
+# Counter Project using React Hooks
 
 A simple and interactive Counter Application built using React.js. This project demonstrates the use of React state management and event handling to increment and decrement a counter value.
 
