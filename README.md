@@ -14,14 +14,25 @@ This repository is designed for:
 
 ## 📂 Projects
 
-### 01-FirstProject
-A beginner-friendly React project to understand the fundamentals of React applications.
+01 - FirstProject
 
-### 02-ReactProject
-A React-based project demonstrating component creation, props, state, and UI development.
+A beginner-friendly React project developed to learn the fundamentals of React, including JSX, components, and application structure.
 
-### 03-FunctionUse
-Practice examples focused on JavaScript functions and their usage within React applications.
+02 - ReactProject
+
+A React-based application showcasing component creation, props, state management, and responsive user interface development.
+
+03 - FunctionUse
+
+A practice project focused on JavaScript functions, event handling, and implementing reusable logic within React applications.
+
+04 - HooksUse
+
+A React Hooks practice project demonstrating the use of useState, useEffect, and other hooks to manage state and component lifecycle efficiently.
+
+05 - CounterProject
+
+A simple counter application built with React that allows users to increment, decrement, and reset values while learning state management with the useState Hook.
 
 > More projects will be added as I continue learning and building with React.
 
